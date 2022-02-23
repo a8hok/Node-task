@@ -1,0 +1,33 @@
+{
+  "name": "node-task",
+  "version": "1.0.0",
+  "description": "NodeJS task",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a8hok/Node-task.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB",
+    "Api"
+  ],
+  "author": "a8hok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a8hok/Node-task/issues"
+  },
+  "homepage": "https://github.com/a8hok/Node-task#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
